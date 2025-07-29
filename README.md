@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# MYEMP - Employee Management System
+
+
+# Employee Management System
+
+This is a basic Employee Management System with Login and Registration functionality. It is built using a full-stack approach.
+
+## 🚀 Features
+- Employee Registration Form
+- Employee Login Form
+
+## 🛠️ Technologies Used
+- **Frontend:** React.js (VS Code)
+- **Backend:** Java Spring Boot (Eclipse IDE)
+- **Database:** MySQL
+
+
+## 📸 Application UI
+
+Here’s how the application looks:
+
+![App UI](./EMPOUTPUT.png)
+
+
+>>>>>>> 3cd07d10f228f5edfda66b3517b9b9c41c2fee48

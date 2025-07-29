@@ -1,0 +1,4 @@
+com\emp\EmployeeRegistrationApplication.class
+com\emp\model\Employee.class
+com\emp\repository\EmployeeRepository.class
+com\emp\controller\EmployeeController.class
