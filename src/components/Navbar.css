@@ -1,0 +1,66 @@
+
+.navbar-brand {
+    font-family: "Segoe UI", sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #fff !important;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Navbar background */
+  .navbar {
+    background: linear-gradient(90deg, #007bff 0%, #6610f2 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navigation links */
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+    padding: 8px 12px;
+    transition: 0.4s ease;
+  }
+  
+  /* Hover underline animation */
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffc107;
+    transition: 0.3s ease-out;
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Hover text color */
+  .navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  /* Active link custom style */
+  .navbar-nav .nav-link.active {
+    color: #ffd700 !important;
+    font-weight: bold;
+  }
+  
+  /* Toggle button styling */
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-toggler-icon {
+    filter: brightness(200%);
+  }
+  
